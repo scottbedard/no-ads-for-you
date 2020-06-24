@@ -1,0 +1,11 @@
+{
+  "content_scripts": [
+    {
+      "js": ["foxnews.js"],
+      "matches": ["https://www.foxnews.com/*"]
+    }
+  ],
+  "manifest_version": 2,
+  "name": "No Ads For You",
+  "version": "0.1.0"
+}
